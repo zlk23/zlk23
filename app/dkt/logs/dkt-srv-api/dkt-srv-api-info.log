@@ -1,0 +1,104 @@
+11:49:49.186 [restartedMain] INFO  c.dkt.DktApplication - [logStarting,50] - Starting DktApplication on zlk-win11 with PID 4800 (D:\git下载\电课堂\dkt-admin\target\classes started by 坤 in D:\git下载\电课堂)
+11:49:49.189 [restartedMain] INFO  c.dkt.DktApplication - [logStartupProfileInfo,652] - The following profiles are active: localhost
+11:49:51.932 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:49:51.940 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:49:51.940 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:49:52.028 [restartedMain] INFO  o.a.c.c.C.[.[.[/wl] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:49:53.275 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:49:53.279 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:49:53.279 [Druid-ConnectionPool-Create-20725862] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1799] - {dataSource-1} failContinuous is true
+11:49:53.280 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:49:53.299 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:55:57.268 [restartedMain] INFO  c.dkt.DktApplication - [logStarting,50] - Starting DktApplication on zlk-win11 with PID 17672 (D:\git下载\电课堂\dkt-admin\target\classes started by 坤 in D:\git下载\电课堂)
+11:55:57.271 [restartedMain] INFO  c.dkt.DktApplication - [logStartupProfileInfo,652] - The following profiles are active: localhost
+11:55:59.054 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:55:59.060 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:55:59.060 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:55:59.147 [restartedMain] INFO  o.a.c.c.C.[.[.[/wl] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:56:03.678 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:56:03.906 [restartedMain] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+11:56:03.907 [restartedMain] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+11:56:06.652 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:56:06.660 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:56:06.661 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:56:06.666 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'zlk-win111658202966653'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+11:56:06.667 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+11:56:06.667 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:56:06.668 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@79dd2c
+11:56:20.063 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:56:20.964 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:56:20.972 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 2 custom documentation plugin(s)
+11:56:21.004 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:56:21.145 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: addUsingPOST_1
+11:56:21.146 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: editUsingPUT_1
+11:56:21.152 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: exportUsingGET_1
+11:56:21.153 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: getInfoUsingGET_1
+11:56:21.155 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: listUsingGET_1
+11:56:21.156 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: removeUsingDELETE_1
+11:56:21.167 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:56:21.174 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: getInfoUsingGET_2
+11:56:21.179 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: listUsingGET_2
+11:56:21.194 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:56:21.217 [restartedMain] INFO  c.dkt.DktApplication - [logStarted,59] - Started DktApplication in 24.196 seconds (JVM running for 24.92)
+11:56:22.869 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_zlk-win111658202966653 started.
+11:57:35.185 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[.[.[/wl] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:58:53.625 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_zlk-win111658202966653 paused.
+11:58:53.631 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_zlk-win111658202966653 shutting down.
+11:58:53.631 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_zlk-win111658202966653 paused.
+11:58:53.632 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_zlk-win111658202966653 shutdown complete.
+11:58:53.632 [Thread-10] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:58:53.636 [Thread-10] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:58:53.640 [Thread-10] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+14:02:02.943 [restartedMain] INFO  c.dkt.DktApplication - [logStarting,50] - Starting DktApplication on zlk-win11 with PID 14704 (D:\git下载\电课堂\dkt-admin\target\classes started by 坤 in D:\git下载\电课堂)
+14:02:02.946 [restartedMain] INFO  c.dkt.DktApplication - [logStartupProfileInfo,652] - The following profiles are active: localhost
+14:02:06.599 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:02:06.606 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:02:06.606 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+14:02:06.710 [restartedMain] INFO  o.a.c.c.C.[.[.[/wl] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:02:10.377 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+14:02:10.618 [restartedMain] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+14:02:10.619 [restartedMain] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+14:02:12.762 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+14:02:12.768 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:02:12.769 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+14:02:12.773 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'zlk-win111658210532763'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+14:02:12.773 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+14:02:12.773 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+14:02:12.774 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@16f5545
+14:02:21.167 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:02:22.136 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:02:22.146 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 2 custom documentation plugin(s)
+14:02:22.182 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:02:22.311 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: addUsingPOST_1
+14:02:22.312 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: editUsingPUT_1
+14:02:22.317 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: exportUsingGET_1
+14:02:22.318 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: getInfoUsingGET_1
+14:02:22.320 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: listUsingGET_1
+14:02:22.321 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: removeUsingDELETE_1
+14:02:22.332 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:02:22.338 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: getInfoUsingGET_2
+14:02:22.340 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: listUsingGET_2
+14:02:22.360 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:02:22.375 [restartedMain] INFO  c.dkt.DktApplication - [logStarted,59] - Started DktApplication in 19.746 seconds (JVM running for 20.971)
+14:02:23.738 [Quartz Scheduler [RuoyiScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler RuoyiScheduler_$_zlk-win111658210532763 started.
+14:05:15.840 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_zlk-win111658210532763 paused.
+14:05:15.844 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_zlk-win111658210532763 shutting down.
+14:05:15.844 [Thread-10] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_zlk-win111658210532763 paused.
+14:05:15.844 [Thread-10] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_zlk-win111658210532763 shutdown complete.
+14:05:15.844 [Thread-10] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+14:05:15.847 [Thread-10] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+14:05:15.849 [Thread-10] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
